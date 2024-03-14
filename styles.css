@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('background_image.jpg'); /* Substitua 'background_image.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.7); /* Adicione transparência ao background-color */
     color: white;
     text-align: center;
     padding: 20px;
@@ -16,7 +20,7 @@ h1, h2 {
 }
 
 .logo {
-    max-width: 150px; /* Defina o tamanho máximo da logo */
+    max-width: 200px; /* Defina o tamanho máximo da logo */
 }
 
 main {
